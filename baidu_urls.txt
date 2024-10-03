@@ -1,1 +1,1 @@
-https://sly3601.github.io/posts/undefined.html
+https://example.com/posts/undefined.html
