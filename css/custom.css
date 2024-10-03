@@ -49,7 +49,7 @@
     color: #f7c768;
   }
   
-  /* bilibli番剧插件 */
+  /* bilibli番剧插件
   #article-container .bangumi-tab.bangumi-active {
     background: var(--anzhiyu-theme);
     color: var(--anzhiyu-ahoverbg);
@@ -84,7 +84,7 @@
   }
   .bangumi-info-item em {
     color: #f2b94b;
-  }
+  } */
   
   /* 解决artitalk的图标问题 */
   #uploadSource > svg {
