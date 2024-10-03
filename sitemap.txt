@@ -1,2 +1,0 @@
-http://example.com/posts/undefined.html
-http://example.com/
