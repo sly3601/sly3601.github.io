@@ -3,11 +3,11 @@
   <title>熠只猪の精神世界</title>
   
   <subtitle>The world needs more love.</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://sly3601.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://sly3601.github.io/"/>
   <updated>2024-10-03T07:15:18.405Z</updated>
-  <id>http://example.com/</id>
+  <id>https://sly3601.github.io/</id>
   
   <author>
     <name>熠只猪</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/posts/undefined.html"/>
-    <id>http://example.com/posts/undefined.html</id>
+    <link href="https://sly3601.github.io/posts/undefined.html"/>
+    <id>https://sly3601.github.io/posts/undefined.html</id>
     <published>2024-10-03T07:15:18.405Z</published>
     <updated>2024-10-03T07:15:18.405Z</updated>
     
