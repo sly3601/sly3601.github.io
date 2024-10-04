@@ -6,7 +6,7 @@
   <link href="https://example.com/atom.xml" rel="self"/>
   
   <link href="https://example.com/"/>
-  <updated>2024-10-04T10:10:31.296Z</updated>
+  <updated>2024-10-04T10:16:12.602Z</updated>
   <id>https://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://example.com/posts/undefined.html"/>
     <id>https://example.com/posts/undefined.html</id>
     <published>2024-10-04T10:10:02.000Z</published>
-    <updated>2024-10-04T10:10:31.296Z</updated>
+    <updated>2024-10-04T10:16:12.602Z</updated>
     
     
     
@@ -34,7 +34,7 @@
     <link href="https://example.com/posts/undefined.html"/>
     <id>https://example.com/posts/undefined.html</id>
     <published>2024-10-04T07:46:31.000Z</published>
-    <updated>2024-10-04T08:40:55.286Z</updated>
+    <updated>2024-10-04T10:16:07.563Z</updated>
     
     <content type="html"><![CDATA[<h1 id="轮足机器人"><a href="#轮足机器人" class="headerlink" title="轮足机器人"></a>轮足机器人</h1><h4 id="一、项目技术"><a href="#一、项目技术" class="headerlink" title="一、项目技术"></a>一、项目技术</h4><p>PCB板共需4块：</p><p>板1板2：用于FOC控制两个无刷电机，需要较大扭矩。</p>]]></content>
     
@@ -51,7 +51,7 @@
     <link href="https://example.com/posts/undefined.html"/>
     <id>https://example.com/posts/undefined.html</id>
     <published>2024-10-04T06:02:37.000Z</published>
-    <updated>2024-10-04T08:41:16.053Z</updated>
+    <updated>2024-10-04T10:16:09.945Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Our-story-begins"><a href="#Our-story-begins" class="headerlink" title="Our story begins."></a>Our story begins.</h1><h4 id="一、我的个人网站的诞生"><a href="#一、我的个人网站的诞生" class="headerlink" title="一、我的个人网站的诞生"></a>一、我的个人网站的诞生</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stdio.h&quot;</span></span></span><br><span class="line"><span class="type">void</span> main&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;hello world!&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(<span class="number">1</span>)</span><br><span class="line">&#123;</span><br><span class="line">delay_ms(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>一切的开始都是在刚上大二的那个迷茫的秋天。</p>]]></content>
     
