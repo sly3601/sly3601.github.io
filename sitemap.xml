@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://example.com/tags/index.html</loc>
+    <loc>https://sly3601.top/tags/index.html</loc>
     
     <lastmod>2024-10-04</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://example.com/categories/index.html</loc>
+    <loc>https://sly3601.top/categories/index.html</loc>
     
     <lastmod>2024-10-04</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://example.com/posts/undefined.html</loc>
+    <loc>https://sly3601.top/posts/undefined.html</loc>
     
     <lastmod>2024-10-04</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://example.com/posts/undefined.html</loc>
+    <loc>https://sly3601.top/posts/undefined.html</loc>
     
     <lastmod>2024-10-04</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://example.com/posts/undefined.html</loc>
+    <loc>https://sly3601.top/posts/undefined.html</loc>
     
     <lastmod>2024-10-04</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://example.com/manifest.json</loc>
+    <loc>https://sly3601.top/manifest.json</loc>
     
     <lastmod>2024-10-04</lastmod>
     
@@ -57,7 +57,7 @@
   
 
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://sly3601.top/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -65,14 +65,14 @@
 
   
   <url>
-    <loc>https://example.com/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://sly3601.top/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <loc>https://sly3601.top/tags/%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
