@@ -6,7 +6,7 @@
   <link href="https://sly3601.top/atom.xml" rel="self"/>
   
   <link href="https://sly3601.top/"/>
-  <updated>2024-10-04T12:13:41.028Z</updated>
+  <updated>2024-10-04T12:14:04.831Z</updated>
   <id>https://sly3601.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://sly3601.top/posts/72c3f755.html"/>
     <id>https://sly3601.top/posts/72c3f755.html</id>
     <published>2024-10-04T07:46:31.000Z</published>
-    <updated>2024-10-04T12:13:41.028Z</updated>
+    <updated>2024-10-04T12:14:04.831Z</updated>
     
     <content type="html"><![CDATA[<h1 id="轮足机器人"><a href="#轮足机器人" class="headerlink" title="轮足机器人"></a>轮足机器人</h1><h4 id="一、项目技术"><a href="#一、项目技术" class="headerlink" title="一、项目技术"></a>一、项目技术</h4><p>PCB板共需4块：</p><p>板1板2：用于FOC控制两个无刷电机，需要较大扭矩。</p>]]></content>
     
