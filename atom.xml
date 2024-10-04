@@ -62,11 +62,11 @@
   </entry>
   
   <entry>
-    <title>一只猪的诞生</title>
+    <title>【日记】一只猪的诞生</title>
     <link href="https://sly3601.top/posts/301ff190.html"/>
     <id>https://sly3601.top/posts/301ff190.html</id>
     <published>2024-10-04T06:02:37.000Z</published>
-    <updated>2024-10-04T10:48:52.105Z</updated>
+    <updated>2024-10-04T12:05:31.098Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Our-story-begins"><a href="#Our-story-begins" class="headerlink" title="Our story begins."></a>Our story begins.</h1><h4 id="一、我的个人网站的诞生"><a href="#一、我的个人网站的诞生" class="headerlink" title="一、我的个人网站的诞生"></a>一、我的个人网站的诞生</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stdio.h&quot;</span></span></span><br><span class="line"><span class="type">void</span> main&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;hello world!&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(<span class="number">1</span>)</span><br><span class="line">&#123;</span><br><span class="line">delay_ms(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>一切的开始都是在刚上大二的那个迷茫的秋天。</p>]]></content>
     
@@ -74,6 +74,8 @@
     <summary type="html">本站的第一个帖子</summary>
     
     
+    
+    <category term="日记" scheme="https://sly3601.top/categories/%E6%97%A5%E8%AE%B0/"/>
     
     
     <category term="日记" scheme="https://sly3601.top/tags/%E6%97%A5%E8%AE%B0/"/>
