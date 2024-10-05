@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sly3601.top/link/index.html</loc>
+    <loc>https://sly3601.top/posts/301ff190.html</loc>
+    
+    <lastmod>2024-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/posts/cac2c8f1.html</loc>
+    
+    <lastmod>2024-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/posts/4935e6ca.html</loc>
     
     <lastmod>2024-10-05</lastmod>
     
@@ -20,15 +38,6 @@
   </url>
   
   <url>
-    <loc>https://sly3601.top/posts/301ff190.html</loc>
-    
-    <lastmod>2024-10-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://sly3601.top/posts/72c3f755.html</loc>
     
     <lastmod>2024-10-05</lastmod>
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://sly3601.top/posts/cac2c8f1.html</loc>
+    <loc>https://sly3601.top/link/index.html</loc>
     
     <lastmod>2024-10-05</lastmod>
     
@@ -90,6 +99,13 @@
   </url>
   
   <url>
+    <loc>https://sly3601.top/tags/butterfly/</loc>
+    <lastmod>2024-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://sly3601.top/tags/cortex-M3/</loc>
     <lastmod>2024-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -97,7 +113,28 @@
   </url>
   
   <url>
-    <loc>https://sly3601.top/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/</loc>
+    <loc>https://sly3601.top/tags/stm32/</loc>
+    <lastmod>2024-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/tags/esp32/</loc>
+    <lastmod>2024-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
+    <lastmod>2024-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/tags/android/</loc>
     <lastmod>2024-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -105,6 +142,13 @@
   
   <url>
     <loc>https://sly3601.top/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2024-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/tags/CAN%E9%80%9A%E4%BF%A1-stm32-solidworks/</loc>
     <lastmod>2024-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
