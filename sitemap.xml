@@ -74,13 +74,6 @@
 
   
   <url>
-    <loc>https://sly3601.top/tags/hexo/</loc>
-    <lastmod>2024-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://sly3601.top/tags/cortex-M3/</loc>
     <lastmod>2024-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -89,6 +82,13 @@
   
   <url>
     <loc>https://sly3601.top/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/</loc>
+    <lastmod>2024-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/tags/hexo/</loc>
     <lastmod>2024-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -104,14 +104,14 @@
 
   
   <url>
-    <loc>https://sly3601.top/categories/%E5%AE%9E%E6%93%8D/</loc>
+    <loc>https://sly3601.top/categories/%E7%90%86%E8%AE%BA/</loc>
     <lastmod>2024-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://sly3601.top/categories/%E7%90%86%E8%AE%BA/</loc>
+    <loc>https://sly3601.top/categories/%E5%AE%9E%E6%93%8D/</loc>
     <lastmod>2024-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
