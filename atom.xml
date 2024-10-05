@@ -6,7 +6,7 @@
   <link href="https://sly3601.top/atom.xml" rel="self"/>
   
   <link href="https://sly3601.top/"/>
-  <updated>2024-10-05T00:53:10.130Z</updated>
+  <updated>2024-10-05T03:30:40.381Z</updated>
   <id>https://sly3601.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://sly3601.top/posts/204a3008.html"/>
     <id>https://sly3601.top/posts/204a3008.html</id>
     <published>2024-10-05T07:46:31.000Z</published>
-    <updated>2024-10-05T00:53:10.130Z</updated>
+    <updated>2024-10-05T03:30:40.381Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="个人博客开发日记"><a href="#个人博客开发日记" class="headerlink" title="个人博客开发日记"></a>个人博客开发日记</h1><h4 id="一、致谢"><a href="#一、致谢" class="headerlink" title="一、致谢"></a>一、致谢</h4><p>感谢安知鱼大佬，让我无痛使用框架快速搭建了博客，让我也体验了前端程序员的快乐~</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="个人博客开发日记"><a href="#个人博客开发日记" class="headerlink" title="个人博客开发日记"></a>个人博客开发日记</h1><h4 id="一、致谢"><a href="#一、致谢" class="headerlink" title="一、致谢"></a>一、致谢</h4><p>感谢安知鱼大佬，让我无痛使用框架快速搭建了博客，让我也体验了前端程序员的快乐~</p><div class="tag link"><a class="link-card" title="糖果屋教程贴:Markdown语法与外挂标签写法汇总" href="https://www.fomal.cc/posts/2013454d.html"><div class="left"><img src="https://cdn.cbd.int/akilar-candyassets@1.0.36/image/siteicon/favicon.ico"/></div><div class="right"><p class="text">糖果屋教程贴:Markdown语法与外挂标签写法汇总</p><p class="url">https://www.fomal.cc/posts/2013454d.html</p></div></a></div>]]></content>
     
     
       
@@ -87,9 +87,9 @@
     <link href="https://sly3601.top/posts/301ff190.html"/>
     <id>https://sly3601.top/posts/301ff190.html</id>
     <published>2024-10-04T06:02:37.000Z</published>
-    <updated>2024-10-05T00:05:14.335Z</updated>
+    <updated>2024-10-05T03:05:03.736Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Our-story-begins"><a href="#Our-story-begins" class="headerlink" title="Our story begins."></a>Our story begins.</h1><h4 id="一、我的个人网站的诞生"><a href="#一、我的个人网站的诞生" class="headerlink" title="一、我的个人网站的诞生"></a>一、我的个人网站的诞生</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stdio.h&quot;</span></span></span><br><span class="line"><span class="type">void</span> main&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;hello world!&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(<span class="number">1</span>)</span><br><span class="line">&#123;</span><br><span class="line">delay_ms(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>一切的开始都是在刚上大二的那个迷茫的秋天。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Our-story-begins"><a href="#Our-story-begins" class="headerlink" title="Our story begins."></a>Our story begins.</h1><h4 id="一、我的个人网站的诞生"><a href="#一、我的个人网站的诞生" class="headerlink" title="一、我的个人网站的诞生"></a>一、我的个人网站的诞生</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stdio.h&quot;</span></span></span><br><span class="line"><span class="type">void</span> main&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;hello world!&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(<span class="number">1</span>)</span><br><span class="line">&#123;</span><br><span class="line">delay_ms(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>一切的开始都是在刚上大二的那个迷茫的秋天。</p><div class="timeline orange"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>一路走来</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2024-10-04 [研二]</p></div></div><div class='timeline-item-content'><p>我搭建了自己的个人博客网站。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2020-06-31 [大一暑假]</p></div></div><div class='timeline-item-content'><p>考科二之前我决定：“如果这次过了，那么我就好好努力。如果没过，那我就一直摆烂下去吧。”<br>我考驾照成功过了科目二。我已经好久好久没有这样成功的快感，原来自己不是什么都做不好。<br>这个决定是一切的开始。</p></div></div></div>]]></content>
     
     
     <summary type="html">本站的第一个帖子</summary>
