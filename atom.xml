@@ -6,7 +6,7 @@
   <link href="https://sly3601.top/atom.xml" rel="self"/>
   
   <link href="https://sly3601.top/"/>
-  <updated>2024-10-05T13:20:55.028Z</updated>
+  <updated>2024-10-05T13:20:56.292Z</updated>
   <id>https://sly3601.top/</id>
   
   <author>
@@ -15,32 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>【前端】个人博客开发日记 - 基于hexo+butterfly</title>
-    <link href="https://sly3601.top/posts/204a3008.html"/>
-    <id>https://sly3601.top/posts/204a3008.html</id>
-    <published>2024-10-05T07:46:31.000Z</published>
-    <updated>2024-10-05T13:20:55.028Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="个人博客开发日记"><a href="#个人博客开发日记" class="headerlink" title="个人博客开发日记"></a>个人博客开发日记</h1><h2 id="一、致谢"><a href="#一、致谢" class="headerlink" title="一、致谢"></a>一、致谢</h2><p>感谢安知鱼大佬，让我无痛使用框架快速搭建了博客，让我也体验了前端程序员的快乐~</p><div class="tag link"><a class="link-card" title="安知鱼：Butterfly重装日记" href="https://blog.anheyu.com/posts/sdxhu.html"><div class="left"><img src="/img/siteicon/64.png"/></div><div class="right"><p class="text">安知鱼：Butterfly重装日记</p><p class="url">https://blog.anheyu.com/posts/sdxhu.html</p></div></a></div><div class="tag link"><a class="link-card" title="糖果屋教程贴:Markdown语法与外挂标签写法汇总" href="https://www.fomal.cc/posts/2013454d.html"><div class="left"><img src="https://cdn.cbd.int/akilar-candyassets@1.0.36/image/siteicon/favicon.ico"/></div><div class="right"><p class="text">糖果屋教程贴:Markdown语法与外挂标签写法汇总</p><p class="url">https://www.fomal.cc/posts/2013454d.html</p></div></a></div><h2 id="二、博客开发和前端学习暂时告一段落"><a href="#二、博客开发和前端学习暂时告一段落" class="headerlink" title="二、博客开发和前端学习暂时告一段落"></a>二、博客开发和前端学习暂时告一段落</h2><p>博客还有很多很多可以优化的地方，但是我毕竟不是这个方向的，能复制粘贴成这样已经非常满意了，后面我会多写博客，等以后有机会再优化网站。</p><h3 id="插入图片的方法"><a href="#插入图片的方法" class="headerlink" title="插入图片的方法"></a>插入图片的方法</h3><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;/img/photos/QQ_1728132822728.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;示例图片&quot;</span> <span class="attr">style</span>=<span class="string">&quot;zoom:100%;&quot;</span> /&gt;</span></span></span><br></pre></td></tr></table></figure><p>其中：style里面的zoom是图片缩放比例，100%就是不缩放，原图放在网页上。</p><p><img src="/img/photos/QQ_1728132822728.png" alt="示例图片" style="zoom:100%;" /></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;个人博客开发日记&quot;&gt;&lt;a href=&quot;#个人博客开发日记&quot; class=&quot;headerlink&quot; title=&quot;个人博客开发日记&quot;&gt;&lt;/a&gt;个人博客开发日记&lt;/h1&gt;&lt;h2 id=&quot;一、致谢&quot;&gt;&lt;a href=&quot;#一、致谢&quot; class=&quot;headerlink&quot; </summary>
-      
-    
-    
-    
-    <category term="实操" scheme="https://sly3601.top/categories/%E5%AE%9E%E6%93%8D/"/>
-    
-    
-    <category term="hexo" scheme="https://sly3601.top/tags/hexo/"/>
-    
-    <category term="butterfly" scheme="https://sly3601.top/tags/butterfly/"/>
-    
-  </entry>
   
   <entry>
     <title>【项目】电机传感器网联模块开发日记</title>
@@ -68,6 +42,32 @@
     <category term="阿里云" scheme="https://sly3601.top/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
     <category term="android" scheme="https://sly3601.top/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【前端】个人博客开发日记 - 基于hexo+butterfly</title>
+    <link href="https://sly3601.top/posts/204a3008.html"/>
+    <id>https://sly3601.top/posts/204a3008.html</id>
+    <published>2024-10-05T07:46:31.000Z</published>
+    <updated>2024-10-05T13:20:55.028Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="个人博客开发日记"><a href="#个人博客开发日记" class="headerlink" title="个人博客开发日记"></a>个人博客开发日记</h1><h2 id="一、致谢"><a href="#一、致谢" class="headerlink" title="一、致谢"></a>一、致谢</h2><p>感谢安知鱼大佬，让我无痛使用框架快速搭建了博客，让我也体验了前端程序员的快乐~</p><div class="tag link"><a class="link-card" title="安知鱼：Butterfly重装日记" href="https://blog.anheyu.com/posts/sdxhu.html"><div class="left"><img src="/img/siteicon/64.png"/></div><div class="right"><p class="text">安知鱼：Butterfly重装日记</p><p class="url">https://blog.anheyu.com/posts/sdxhu.html</p></div></a></div><div class="tag link"><a class="link-card" title="糖果屋教程贴:Markdown语法与外挂标签写法汇总" href="https://www.fomal.cc/posts/2013454d.html"><div class="left"><img src="https://cdn.cbd.int/akilar-candyassets@1.0.36/image/siteicon/favicon.ico"/></div><div class="right"><p class="text">糖果屋教程贴:Markdown语法与外挂标签写法汇总</p><p class="url">https://www.fomal.cc/posts/2013454d.html</p></div></a></div><h2 id="二、博客开发和前端学习暂时告一段落"><a href="#二、博客开发和前端学习暂时告一段落" class="headerlink" title="二、博客开发和前端学习暂时告一段落"></a>二、博客开发和前端学习暂时告一段落</h2><p>博客还有很多很多可以优化的地方，但是我毕竟不是这个方向的，能复制粘贴成这样已经非常满意了，后面我会多写博客，等以后有机会再优化网站。</p><h3 id="插入图片的方法"><a href="#插入图片的方法" class="headerlink" title="插入图片的方法"></a>插入图片的方法</h3><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;/img/photos/QQ_1728132822728.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;示例图片&quot;</span> <span class="attr">style</span>=<span class="string">&quot;zoom:100%;&quot;</span> /&gt;</span></span></span><br></pre></td></tr></table></figure><p>其中：style里面的zoom是图片缩放比例，100%就是不缩放，原图放在网页上。</p><p><img src="/img/photos/QQ_1728132822728.png" alt="示例图片" style="zoom:100%;" /></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;个人博客开发日记&quot;&gt;&lt;a href=&quot;#个人博客开发日记&quot; class=&quot;headerlink&quot; title=&quot;个人博客开发日记&quot;&gt;&lt;/a&gt;个人博客开发日记&lt;/h1&gt;&lt;h2 id=&quot;一、致谢&quot;&gt;&lt;a href=&quot;#一、致谢&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    <category term="实操" scheme="https://sly3601.top/categories/%E5%AE%9E%E6%93%8D/"/>
+    
+    
+    <category term="hexo" scheme="https://sly3601.top/tags/hexo/"/>
+    
+    <category term="butterfly" scheme="https://sly3601.top/tags/butterfly/"/>
     
   </entry>
   

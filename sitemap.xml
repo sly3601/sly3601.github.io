@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sly3601.top/qq/index.html</loc>
+    
+    <lastmod>2024-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sly3601.top/posts/cac2c8f1.html</loc>
     
     <lastmod>2024-10-05</lastmod>
@@ -92,20 +101,6 @@
 
   
   <url>
-    <loc>https://sly3601.top/tags/hexo/</loc>
-    <lastmod>2024-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://sly3601.top/tags/butterfly/</loc>
-    <lastmod>2024-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://sly3601.top/tags/cortex-M3/</loc>
     <lastmod>2024-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -141,13 +136,6 @@
   </url>
   
   <url>
-    <loc>https://sly3601.top/tags/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2024-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://sly3601.top/tags/CAN%E9%80%9A%E4%BF%A1/</loc>
     <lastmod>2024-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -161,17 +149,38 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://sly3601.top/categories/%E5%AE%9E%E6%93%8D/</loc>
+    <loc>https://sly3601.top/tags/hexo/</loc>
     <lastmod>2024-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
+    <loc>https://sly3601.top/tags/butterfly/</loc>
+    <lastmod>2024-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2024-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
     <loc>https://sly3601.top/categories/%E7%90%86%E8%AE%BA/</loc>
+    <lastmod>2024-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/categories/%E5%AE%9E%E6%93%8D/</loc>
     <lastmod>2024-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
