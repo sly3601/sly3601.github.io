@@ -6,7 +6,7 @@
   <link href="https://sly3601.top/atom.xml" rel="self"/>
   
   <link href="https://sly3601.top/"/>
-  <updated>2024-10-05T03:30:40.381Z</updated>
+  <updated>2024-10-05T06:04:55.858Z</updated>
   <id>https://sly3601.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://sly3601.top/posts/204a3008.html"/>
     <id>https://sly3601.top/posts/204a3008.html</id>
     <published>2024-10-05T07:46:31.000Z</published>
-    <updated>2024-10-05T03:30:40.381Z</updated>
+    <updated>2024-10-05T06:04:55.858Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="个人博客开发日记"><a href="#个人博客开发日记" class="headerlink" title="个人博客开发日记"></a>个人博客开发日记</h1><h4 id="一、致谢"><a href="#一、致谢" class="headerlink" title="一、致谢"></a>一、致谢</h4><p>感谢安知鱼大佬，让我无痛使用框架快速搭建了博客，让我也体验了前端程序员的快乐~</p><div class="tag link"><a class="link-card" title="糖果屋教程贴:Markdown语法与外挂标签写法汇总" href="https://www.fomal.cc/posts/2013454d.html"><div class="left"><img src="https://cdn.cbd.int/akilar-candyassets@1.0.36/image/siteicon/favicon.ico"/></div><div class="right"><p class="text">糖果屋教程贴:Markdown语法与外挂标签写法汇总</p><p class="url">https://www.fomal.cc/posts/2013454d.html</p></div></a></div>]]></content>
+    <content type="html"><![CDATA[<h1 id="个人博客开发日记"><a href="#个人博客开发日记" class="headerlink" title="个人博客开发日记"></a>个人博客开发日记</h1><h4 id="一、致谢"><a href="#一、致谢" class="headerlink" title="一、致谢"></a>一、致谢</h4><p>感谢安知鱼大佬，让我无痛使用框架快速搭建了博客，让我也体验了前端程序员的快乐~</p><div class="tag link"><a class="link-card" title="糖果屋教程贴:Markdown语法与外挂标签写法汇总" href="https://www.fomal.cc/posts/2013454d.html"><div class="left"><img src="https://cdn.cbd.int/akilar-candyassets@1.0.36/image/siteicon/favicon.ico"/></div><div class="right"><p class="text">糖果屋教程贴:Markdown语法与外挂标签写法汇总</p><p class="url">https://www.fomal.cc/posts/2013454d.html</p></div></a></div><div class="tag link"><a class="link-card" title="安知鱼：Butterfly重装日记" href="https://blog.anheyu.com/posts/sdxhu.html"><div class="left"><img src="/img/siteicon/64.png"/></div><div class="right"><p class="text">安知鱼：Butterfly重装日记</p><p class="url">https://blog.anheyu.com/posts/sdxhu.html</p></div></a></div>]]></content>
     
     
       
@@ -37,27 +37,6 @@
     
     
     <category term="hexo" scheme="https://sly3601.top/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【项目】轮足机器人开发日记</title>
-    <link href="https://sly3601.top/posts/cac2c8f1.html"/>
-    <id>https://sly3601.top/posts/cac2c8f1.html</id>
-    <published>2024-10-04T07:46:31.000Z</published>
-    <updated>2024-10-05T00:46:42.703Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="轮足机器人"><a href="#轮足机器人" class="headerlink" title="轮足机器人"></a>轮足机器人</h1><h4 id="一、项目技术"><a href="#一、项目技术" class="headerlink" title="一、项目技术"></a>一、项目技术</h4><p>PCB板共需4块：</p><p>板1板2：用于FOC控制两个无刷电机，需要较大扭矩。</p>]]></content>
-    
-    
-    <summary type="html">轮足机器人开发过程记录</summary>
-    
-    
-    
-    <category term="实操" scheme="https://sly3601.top/categories/%E5%AE%9E%E6%93%8D/"/>
-    
-    
-    <category term="机器人" scheme="https://sly3601.top/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
     
   </entry>
   
@@ -79,6 +58,27 @@
     
     
     <category term="cortex-M3" scheme="https://sly3601.top/tags/cortex-M3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【项目】轮足机器人开发日记</title>
+    <link href="https://sly3601.top/posts/cac2c8f1.html"/>
+    <id>https://sly3601.top/posts/cac2c8f1.html</id>
+    <published>2024-10-04T07:46:31.000Z</published>
+    <updated>2024-10-05T00:46:42.703Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="轮足机器人"><a href="#轮足机器人" class="headerlink" title="轮足机器人"></a>轮足机器人</h1><h4 id="一、项目技术"><a href="#一、项目技术" class="headerlink" title="一、项目技术"></a>一、项目技术</h4><p>PCB板共需4块：</p><p>板1板2：用于FOC控制两个无刷电机，需要较大扭矩。</p>]]></content>
+    
+    
+    <summary type="html">轮足机器人开发过程记录</summary>
+    
+    
+    
+    <category term="实操" scheme="https://sly3601.top/categories/%E5%AE%9E%E6%93%8D/"/>
+    
+    
+    <category term="机器人" scheme="https://sly3601.top/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
     
   </entry>
   
