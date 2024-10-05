@@ -99,7 +99,7 @@
     <link href="https://sly3601.top/posts/cac2c8f1.html"/>
     <id>https://sly3601.top/posts/cac2c8f1.html</id>
     <published>2024-10-04T07:46:31.000Z</published>
-    <updated>2024-10-05T13:20:57.348Z</updated>
+    <updated>2024-10-05T13:21:54.116Z</updated>
     
     <content type="html"><![CDATA[<h1 id="轮足机器人"><a href="#轮足机器人" class="headerlink" title="轮足机器人"></a>轮足机器人</h1><p>因为制作博客之前这个项目就已经做了很多了，所以就先写新的。</p><h2 id="CAN总线通信"><a href="#CAN总线通信" class="headerlink" title="CAN总线通信"></a>CAN总线通信</h2><details class="folding-tag" green open><summary> CAN总线通信 </summary>              <div class='content'>              <p>上位机是STM32H743IIT6，下位机是两个STM32F103C8T6。</p><p>重点是filter的配置：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* USER CODE BEGIN CAN_Init 2 */</span></span><br><span class="line">CAN_FilterTypeDef can_filtercfg;</span><br><span class="line">can_filtercfg.FilterMode = CAN_FILTERMODE_IDMASK;<span class="comment">//屏蔽位模式</span></span><br><span class="line">can_filtercfg.FilterScale = CAN_FILTERSCALE_32BIT;</span><br><span class="line">can_filtercfg.FilterIdHigh = <span class="number">0x12</span>&lt;&lt;<span class="number">5</span>;<span class="comment">//ID</span></span><br><span class="line">can_filtercfg.FilterIdLow = <span class="number">0</span>;</span><br><span class="line">can_filtercfg.FilterMaskIdHigh = <span class="number">0x7FF</span>;</span><br><span class="line">can_filtercfg.FilterMaskIdLow = <span class="number">0x06</span>;</span><br><span class="line"></span><br><span class="line">can_filtercfg.FilterBank = <span class="number">0</span>;<span class="comment">//过滤器组0</span></span><br><span class="line">can_filtercfg.FilterFIFOAssignment = CAN_FILTER_FIFO0;</span><br><span class="line">can_filtercfg.FilterActivation = CAN_FILTER_ENABLE;</span><br><span class="line">can_filtercfg.SlaveStartFilterBank = <span class="number">14</span>;<span class="comment">//如果只使用单个CAN，可忽略此成员取值：0 ~ 27</span></span><br><span class="line"><span class="keyword">while</span>(HAL_CAN_ConfigFilter(&amp;hcan, &amp;can_filtercfg)!=HAL_OK);</span><br><span class="line"><span class="comment">/* USER CODE END CAN_Init 2 */</span></span><br></pre></td></tr></table></figure><p>我的两个电机id分别是0x12和0x13，目前只接受不发送。</p>              </div>            </details>]]></content>
     
@@ -111,7 +111,11 @@
     <category term="实操" scheme="https://sly3601.top/categories/%E5%AE%9E%E6%93%8D/"/>
     
     
-    <category term="-CAN通信 -stm32 -solidworks" scheme="https://sly3601.top/tags/CAN%E9%80%9A%E4%BF%A1-stm32-solidworks/"/>
+    <category term="stm32" scheme="https://sly3601.top/tags/stm32/"/>
+    
+    <category term="CAN通信" scheme="https://sly3601.top/tags/CAN%E9%80%9A%E4%BF%A1/"/>
+    
+    <category term="solidworks" scheme="https://sly3601.top/tags/solidworks/"/>
     
   </entry>
   
