@@ -6,7 +6,7 @@
   <link href="https://sly3601.top/atom.xml" rel="self"/>
   
   <link href="https://sly3601.top/"/>
-  <updated>2024-10-05T00:53:02.095Z</updated>
+  <updated>2024-10-05T00:53:10.130Z</updated>
   <id>https://sly3601.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://sly3601.top/posts/204a3008.html"/>
     <id>https://sly3601.top/posts/204a3008.html</id>
     <published>2024-10-05T07:46:31.000Z</published>
-    <updated>2024-10-05T00:53:02.095Z</updated>
+    <updated>2024-10-05T00:53:10.130Z</updated>
     
     <content type="html"><![CDATA[<h1 id="个人博客开发日记"><a href="#个人博客开发日记" class="headerlink" title="个人博客开发日记"></a>个人博客开发日记</h1><h4 id="一、致谢"><a href="#一、致谢" class="headerlink" title="一、致谢"></a>一、致谢</h4><p>感谢安知鱼大佬，让我无痛使用框架快速搭建了博客，让我也体验了前端程序员的快乐~</p>]]></content>
     
@@ -41,13 +41,13 @@
   </entry>
   
   <entry>
-    <title>【理论】《ARM cortex-M3权威指南》学习笔记.md</title>
+    <title>【理论】《ARM cortex-M3权威指南》学习笔记</title>
     <link href="https://sly3601.top/posts/72c3f755.html"/>
     <id>https://sly3601.top/posts/72c3f755.html</id>
     <published>2024-10-04T07:46:31.000Z</published>
-    <updated>2024-10-05T00:46:44.158Z</updated>
+    <updated>2024-10-05T00:57:50.654Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="轮足机器人"><a href="#轮足机器人" class="headerlink" title="轮足机器人"></a>轮足机器人</h1><h4 id="一、项目技术"><a href="#一、项目技术" class="headerlink" title="一、项目技术"></a>一、项目技术</h4><p>PCB板共需4块：</p><p>板1板2：用于FOC控制两个无刷电机，需要较大扭矩。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="《ARM-cortex-M3权威指南》学习笔记"><a href="#《ARM-cortex-M3权威指南》学习笔记" class="headerlink" title="《ARM cortex-M3权威指南》学习笔记"></a>《ARM cortex-M3权威指南》学习笔记</h1><h4 id="一、学习目的"><a href="#一、学习目的" class="headerlink" title="一、学习目的"></a>一、学习目的</h4><p>是时候把单片机开发学得再深入一些了。我希望自己之后的开发能深入到内核和汇编层面，自然要多补充一些理论基础。</p>]]></content>
     
     
     <summary type="html">轮足机器人开发过程记录</summary>
