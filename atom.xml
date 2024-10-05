@@ -6,7 +6,7 @@
   <link href="https://sly3601.top/atom.xml" rel="self"/>
   
   <link href="https://sly3601.top/"/>
-  <updated>2024-10-05T00:19:58.909Z</updated>
+  <updated>2024-10-05T00:53:02.095Z</updated>
   <id>https://sly3601.top/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【前端】个人博客开发日记 - 基于hexo+butterfly</title>
+    <link href="https://sly3601.top/posts/204a3008.html"/>
+    <id>https://sly3601.top/posts/204a3008.html</id>
+    <published>2024-10-05T07:46:31.000Z</published>
+    <updated>2024-10-05T00:53:02.095Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="个人博客开发日记"><a href="#个人博客开发日记" class="headerlink" title="个人博客开发日记"></a>个人博客开发日记</h1><h4 id="一、致谢"><a href="#一、致谢" class="headerlink" title="一、致谢"></a>一、致谢</h4><p>感谢安知鱼大佬，让我无痛使用框架快速搭建了博客，让我也体验了前端程序员的快乐~</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;个人博客开发日记&quot;&gt;&lt;a href=&quot;#个人博客开发日记&quot; class=&quot;headerlink&quot; title=&quot;个人博客开发日记&quot;&gt;&lt;/a&gt;个人博客开发日记&lt;/h1&gt;&lt;h4 id=&quot;一、致谢&quot;&gt;&lt;a href=&quot;#一、致谢&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    <category term="实操" scheme="https://sly3601.top/categories/%E5%AE%9E%E6%93%8D/"/>
+    
+    
+    <category term="hexo" scheme="https://sly3601.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【理论】《ARM cortex-M3权威指南》学习笔记.md</title>
     <link href="https://sly3601.top/posts/72c3f755.html"/>
     <id>https://sly3601.top/posts/72c3f755.html</id>
     <published>2024-10-04T07:46:31.000Z</published>
-    <updated>2024-10-05T00:19:58.909Z</updated>
+    <updated>2024-10-05T00:46:44.158Z</updated>
     
     <content type="html"><![CDATA[<h1 id="轮足机器人"><a href="#轮足机器人" class="headerlink" title="轮足机器人"></a>轮足机器人</h1><h4 id="一、项目技术"><a href="#一、项目技术" class="headerlink" title="一、项目技术"></a>一、项目技术</h4><p>PCB板共需4块：</p><p>板1板2：用于FOC控制两个无刷电机，需要较大扭矩。</p>]]></content>
     
@@ -33,7 +57,7 @@
     <category term="理论" scheme="https://sly3601.top/categories/%E7%90%86%E8%AE%BA/"/>
     
     
-    <category term="技术" scheme="https://sly3601.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="cortex-M3" scheme="https://sly3601.top/tags/cortex-M3/"/>
     
   </entry>
   
@@ -42,7 +66,7 @@
     <link href="https://sly3601.top/posts/cac2c8f1.html"/>
     <id>https://sly3601.top/posts/cac2c8f1.html</id>
     <published>2024-10-04T07:46:31.000Z</published>
-    <updated>2024-10-05T00:08:08.942Z</updated>
+    <updated>2024-10-05T00:46:42.703Z</updated>
     
     <content type="html"><![CDATA[<h1 id="轮足机器人"><a href="#轮足机器人" class="headerlink" title="轮足机器人"></a>轮足机器人</h1><h4 id="一、项目技术"><a href="#一、项目技术" class="headerlink" title="一、项目技术"></a>一、项目技术</h4><p>PCB板共需4块：</p><p>板1板2：用于FOC控制两个无刷电机，需要较大扭矩。</p>]]></content>
     
@@ -54,7 +78,7 @@
     <category term="实操" scheme="https://sly3601.top/categories/%E5%AE%9E%E6%93%8D/"/>
     
     
-    <category term="技术" scheme="https://sly3601.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="机器人" scheme="https://sly3601.top/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
     
   </entry>
   
