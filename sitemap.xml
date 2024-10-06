@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sly3601.top/posts/2e5f328.html</loc>
+    
+    <lastmod>2024-10-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sly3601.top/posts/f50b84c9.html</loc>
     
     <lastmod>2024-10-06</lastmod>
@@ -138,6 +147,34 @@
   </url>
   
   <url>
+    <loc>https://sly3601.top/tags/cortex-M3/</loc>
+    <lastmod>2024-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/tags/stm32/</loc>
+    <lastmod>2024-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/tags/PCB/</loc>
+    <lastmod>2024-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sly3601.top/tags/%E7%94%B5%E8%B7%AF/</loc>
+    <lastmod>2024-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://sly3601.top/tags/esp32/</loc>
     <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -166,21 +203,7 @@
   </url>
   
   <url>
-    <loc>https://sly3601.top/tags/stm32/</loc>
-    <lastmod>2024-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://sly3601.top/tags/solidworks/</loc>
-    <lastmod>2024-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://sly3601.top/tags/cortex-M3/</loc>
     <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
