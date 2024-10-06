@@ -4,27 +4,25 @@
   
     
     <entry>
-      <title>【项目】电机传感器网联模块开发日记</title>
-      <link href="/posts/4935e6ca.html"/>
-      <url>/posts/4935e6ca.html</url>
+      <title>C语言与数据结构的入门与持续精进</title>
+      <link href="/posts/f50b84c9.html"/>
+      <url>/posts/f50b84c9.html</url>
       
-        <content type="html"><![CDATA[<h1 id="电机传感器网联模块"><a href="#电机传感器网联模块" class="headerlink" title="电机传感器网联模块"></a>电机传感器网联模块</h1><p>就是个普通物联网项目，赶快做完，顺便记录下。</p><h2 id="ESP32的最小系统板PCB绘制"><a href="#ESP32的最小系统板PCB绘制" class="headerlink" title="ESP32的最小系统板PCB绘制"></a>ESP32的最小系统板PCB绘制</h2><details class="folding-tag" green open><summary> esp32模块 </summary>              <div class='content'>              <div class='checkbox green'><input type="checkbox" />            <ol><li>sd卡模块验证</li></ol>            </div><div class='checkbox green'><input type="checkbox" />            <ol><li>esp32s3模块的封装</li></ol>            </div><div class='checkbox green'><input type="checkbox" />            <ol><li>esp32+信号采集+电源+SD卡PCB绘制</li></ol>            </div><div class='checkbox green'><input type="checkbox" />            <ol><li>sd卡实时存储数据</li></ol>            </div><div class='checkbox green checked'><input type="checkbox" checked="checked"/>            <ol><li>esp32与app收发数据</li></ol>            </div>              </div>            </details>]]></content>
+        <content type="html"><![CDATA[<h1 id="C语言与数据结构的入门与持续精进"><a href="#C语言与数据结构的入门与持续精进" class="headerlink" title="C语言与数据结构的入门与持续精进"></a>C语言与数据结构的入门与持续精进</h1><h2 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure><h2 id="指针的语法"><a href="#指针的语法" class="headerlink" title="指针的语法"></a>指针的语法</h2><details class="folding-tag" green open><summary> 来自CSDN-唐大麦 </summary>              <div class='content'>              <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> p; <span class="comment">//这是一个普通的整型变量</span></span><br><span class="line"><span class="type">int</span> *p; <span class="comment">//首先从P 处开始,先与*结合,所以说明P 是一个指针,然后再与int 结合,说明指针所指向的内容的类型为int 型.所以P是一个返回整型数据的指针</span></span><br><span class="line"><span class="type">int</span> p[<span class="number">3</span>]; <span class="comment">//首先从P 处开始,先与[]结合,说明P 是一个数组,然后与int 结合,说明数组里的元素是整型的,所以P 是一个由整型数据组成的数组</span></span><br><span class="line"><span class="type">int</span> *p[<span class="number">3</span>]; <span class="comment">//首先从P 处开始,先与[]结合,因为其优先级比*高,所以P 是一个数组,然后再与*结合,说明数组里的元素是指针类型,然后再与int 结合,说明指针所指向的内容的类型是整型的,所以P 是一个由返回整型数据的指针所组成的数组</span></span><br><span class="line"><span class="type">int</span> (*p)[<span class="number">3</span>]; <span class="comment">//首先从P 处开始,先与*结合,说明P 是一个指针然后再与[]结合(与&quot;()&quot;这步可以忽略,只是为了改变优先级),说明指针所指向的内容是一个数组,然后再与int 结合,说明数组里的元素是整型的.所以P 是一个指向由整型数据组成的数组的指针</span></span><br><span class="line"><span class="type">int</span> **p; <span class="comment">//首先从P 开始,先与*结合,说是P 是一个指针,然后再与*结合,说明指针所指向的元素是指针,然后再与int 结合,说明该指针所指向的元素是整型数据.由于二级指针以及更高级的指针极少用在复杂的类型中,所以后面更复杂的类型我们就不考虑多级指针了,最多只考虑一级指针.</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">p</span><span class="params">(<span class="type">int</span>)</span>; <span class="comment">//从P 处起,先与()结合,说明P 是一个函数,然后进入()里分析,说明该函数有一个整型变量的参数,然后再与外面的int 结合,说明函数的返回值是一个整型数据</span></span><br><span class="line"><span class="type">int</span> (*p)(<span class="type">int</span>); <span class="comment">//从P 处开始,先与指针结合,说明P 是一个指针,然后与()结合,说明指针指向的是一个函数,然后再与()里的int 结合,说明函数有一个int 型的参数,再与最外层的int 结合,说明函数的返回类型是整型,所以P 是一个指向有一个整型参数且返回类型为整型的函数的指针</span></span><br><span class="line"><span class="type">int</span> *(*p(<span class="type">int</span>))[<span class="number">3</span>]; <span class="comment">//可以先跳过,不看这个类型,过于复杂从P 开始,先与()结合,说明P 是一个函数,然后进入()里面,与int 结合,说明函数有一个整型变量参数,然后再与外面的*结合,说明函数返回的是一个指针,,然后到最外面一层,先与[]结合,说明返回的指针指向的是一个数组,然后再与*结合,说明数组里的元素是指针,然后再与int 结合,说明指针指向的内容是整型数据.所以P 是一个参数为一个整数据且返回一个指向由整型指针变量组成的数组的指针变量的函数.</span></span><br></pre></td></tr></table></figure>              </div>            </details><p>上面就已经把指针的语法说得相当明白了，无非就是各种符号的优先级问题，<code>优先级**()** &gt; **[]** &gt; *****</code>，哪一个符号先与变量结合，然后是哪一个，这样子再复杂的指针复合体也能迎刃而解。</p>]]></content>
       
       
       <categories>
           
-          <category> 实操 </category>
+          <category> 理论 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> esp32 </tag>
+            <tag> C </tag>
             
-            <tag> 阿里云 </tag>
-            
-            <tag> android </tag>
+            <tag> 数据结构 </tag>
             
         </tags>
       
@@ -60,25 +58,27 @@
     
     
     <entry>
-      <title>【理论】《ARM cortex-M3权威指南》学习笔记</title>
-      <link href="/posts/72c3f755.html"/>
-      <url>/posts/72c3f755.html</url>
+      <title>【项目】电机传感器网联模块开发日记</title>
+      <link href="/posts/4935e6ca.html"/>
+      <url>/posts/4935e6ca.html</url>
       
-        <content type="html"><![CDATA[<h1 id="《ARM-cortex-M3权威指南》学习笔记"><a href="#《ARM-cortex-M3权威指南》学习笔记" class="headerlink" title="《ARM cortex-M3权威指南》学习笔记"></a>《ARM cortex-M3权威指南》学习笔记</h1><h2 id="一、学习目的"><a href="#一、学习目的" class="headerlink" title="一、学习目的"></a>一、学习目的</h2><p>是时候把单片机开发学得再深入一些了。我希望自己之后的开发能深入到内核和汇编层面，自然要多补充一些理论基础。好的</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="电机传感器网联模块"><a href="#电机传感器网联模块" class="headerlink" title="电机传感器网联模块"></a>电机传感器网联模块</h1><p>就是个普通物联网项目，赶快做完，顺便记录下。</p><h2 id="ESP32的最小系统板PCB绘制"><a href="#ESP32的最小系统板PCB绘制" class="headerlink" title="ESP32的最小系统板PCB绘制"></a>ESP32的最小系统板PCB绘制</h2><details class="folding-tag" green open><summary> esp32模块 </summary>              <div class='content'>              <div class='checkbox green'><input type="checkbox" />            <ol><li>sd卡模块验证</li></ol>            </div><div class='checkbox green'><input type="checkbox" />            <ol><li>esp32s3模块的封装</li></ol>            </div><div class='checkbox green'><input type="checkbox" />            <ol><li>esp32+信号采集+电源+SD卡PCB绘制</li></ol>            </div><div class='checkbox green'><input type="checkbox" />            <ol><li>sd卡实时存储数据</li></ol>            </div><div class='checkbox green checked'><input type="checkbox" checked="checked"/>            <ol><li>esp32与app收发数据</li></ol>            </div>              </div>            </details>]]></content>
       
       
       <categories>
           
-          <category> 理论 </category>
+          <category> 实操 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> cortex-M3 </tag>
+            <tag> esp32 </tag>
             
-            <tag> stm32 </tag>
+            <tag> 阿里云 </tag>
+            
+            <tag> android </tag>
             
         </tags>
       
@@ -103,11 +103,38 @@
       
         <tags>
             
-            <tag> stm32 </tag>
-            
             <tag> CAN通信 </tag>
             
+            <tag> stm32 </tag>
+            
             <tag> solidworks </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【理论】《ARM cortex-M3权威指南》学习笔记</title>
+      <link href="/posts/72c3f755.html"/>
+      <url>/posts/72c3f755.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="《ARM-cortex-M3权威指南》学习笔记"><a href="#《ARM-cortex-M3权威指南》学习笔记" class="headerlink" title="《ARM cortex-M3权威指南》学习笔记"></a>《ARM cortex-M3权威指南》学习笔记</h1><h2 id="学习目的"><a href="#学习目的" class="headerlink" title="学习目的"></a>学习目的</h2><p>是时候把单片机开发学得再深入一些了。我希望自己之后的开发能深入到内核和汇编层面，自然要多补充一些理论基础。好的</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 理论 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> stm32 </tag>
+            
+            <tag> cortex-M3 </tag>
             
         </tags>
       
@@ -167,17 +194,6 @@
     
     <entry>
       <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* @font-face {  font-family: Candyhome;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);  font-display: swap;  font-weight: lighter;} */@font-face {    font-family: ZhuZiAYuanJWD;    src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);    font-display: swap;    font-weight: lighter;  }    div#menus {    font-family: "ZhuZiAYuanJWD";  }  h1#site-title {    font-family: ZhuZiAYuanJWD;    font-size: 3em !important;  }  a.article-title,  a.blog-slider__title,  a.categoryBar-list-link,  h1.post-title {    font-family: ZhuZiAYuanJWD;  }    .iconfont {    font-family: "iconfont" !important;    font-size: 3em;    /* 可以定义图标大小 */    font-style: normal;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  }    /* 时间轴生肖icon */  svg.icon {    /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */    width: 1em;    height: 1em;    /* width和height定义图标的默认宽度和高度*/    vertical-align: -0.15em;    fill: currentColor;    overflow: hidden;  }    .icon-zhongbiao::before {    color: #f7c768;  }    /* bilibli番剧插件  #article-container .bangumi-tab.bangumi-active {    background: var(--anzhiyu-theme);    color: var(--anzhiyu-ahoverbg);    border-radius: 10px;  }  a.bangumi-tab:hover {    text-decoration: none !important;  }  .bangumi-button:hover {    background: var(--anzhiyu-theme) !important;    border-radius: 10px !important;    color: var(--anzhiyu-ahoverbg) !important;  }  a.bangumi-button.bangumi-nextpage:hover {    text-decoration: none !important;  }  .bangumi-button {    padding: 5px 10px !important;  }    a.bangumi-tab {    padding: 5px 10px !important;  }  svg.icon.faa-tada {    font-size: 1.1em;  }  .bangumi-info-item {    border-right: 1px solid #f2b94b;  }  .bangumi-info-item span {    color: #f2b94b;  }  .bangumi-info-item em {    color: #f2b94b;  } */    /* 解决artitalk的图标问题 */  #uploadSource > svg {    width: 1.19em;    height: 1.5em;  }    /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */  #page-header:not(.not-top-img):before {    background-color: transparent !important;  }    /* 首页文章卡片 */  #recent-posts > .recent-post-item {    background: rgba(255, 255, 255, 0.9);  }    /* 首页侧栏卡片 */  #aside-content .card-widget {    background: rgba(255, 255, 255, 0.9);  }    /* 文章页面正文背景 */  div#post {    background: rgba(255, 255, 255, 0.9);  }    /* 分页页面 */  div#page {    background: rgba(255, 255, 255, 0.9);  }    /* 归档页面 */  div#archive {    background: rgba(255, 255, 255, 0.9);  }    /* 标签页面 */  div#tag {    background: rgba(255, 255, 255, 0.9);  }    /* 分类页面 */  div#category {    background: rgba(255, 255, 255, 0.9);  }    /*夜间模式伪类遮罩层透明*/  [data-theme="dark"] #recent-posts > .recent-post-item {    background: #121212;  }    [data-theme="dark"] .card-widget {    background: #121212 !important;  }    [data-theme="dark"] div#post {    background: #121212 !important;  }    [data-theme="dark"] div#tag {    background: #121212 !important;  }    [data-theme="dark"] div#archive {    background: #121212 !important;  }    [data-theme="dark"] div#page {    background: #121212 !important;  }    [data-theme="dark"] div#category {    background: #121212 !important;  }    [data-theme="dark"] div#category {    background: transparent !important;  }  /* 页脚透明 */  #footer {    background: transparent !important;  }    /* 头图透明 */  #page-header {    background: transparent !important;  }    #rightside > div > button {    border-radius: 5px;  }    /* 滚动条 */    ::-webkit-scrollbar {    width: 10px;    height: 10px;  }    ::-webkit-scrollbar-thumb {    background-color: #3b70fc;    border-radius: 2em;  }    ::-webkit-scrollbar-corner {    background-color: transparent;  }    ::-moz-selection {    color: #fff;    background-color: #3b70fc;  }    /* 音乐播放器 */    /* .aplayer .aplayer-lrc {    display: none !important;  } */    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {    left: -66px !important;    transition: all 0.3s;    /* 默认情况下缩进左侧66px，只留一点箭头部分 */  }    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {    left: 0 !important;    transition: all 0.3s;    /* 鼠标悬停是左侧缩进归零，完全显示按钮 */  }    .aplayer.aplayer-fixed {    z-index: 999999 !important;  }    /* 评论框  */  .vwrap {    box-shadow: 2px 2px 5px #bbb;    background: rgba(255, 255, 255, 0.3);    border-radius: 8px;    padding: 30px;    margin: 30px 0px 30px 0px;  }    /* 设置评论框 */    .vcard {    box-shadow: 2px 2px 5px #bbb;    background: rgba(255, 255, 255, 0.3);    border-radius: 8px;    padding: 30px;    margin: 30px 0px 0px 0px;  }    /* md网站下划线 */  #article-container a:hover {    text-decoration: none !important;  }    #article-container #hpp_talk p img {    display: inline;  }    /* 404页面 */  #error-wrap {    position: absolute;    top: 40%;    right: 0;    left: 0;    margin: 0 auto;    padding: 0 1rem;    max-width: 1000px;    transform: translate(0, -50%);  }    #error-wrap .error-content {    display: flex;    flex-direction: row;    justify-content: center;    align-items: center;    margin: 0 1rem;    height: 18rem;    border-radius: 8px;    background: var(--card-bg);    box-shadow: var(--card-box-shadow);    transition: all 0.3s;  }    #error-wrap .error-content .error-img {    box-flex: 1;    flex: 1;    height: 100%;    border-top-left-radius: 8px;    border-bottom-left-radius: 8px;    background-color: #3b70fc;    background-position: center;    background-size: cover;  }    #error-wrap .error-content .error-info {    box-flex: 1;    flex: 1;    padding: 0.5rem;    text-align: center;    font-size: 14px;    font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;  }  #error-wrap .error-content .error-info .error_title {    margin-top: -4rem;    font-size: 9em;  }  #error-wrap .error-content .error-info .error_subtitle {    margin-top: -3.5rem;    word-break: break-word;    font-size: 1.6em;  }  #error-wrap .error-content .error-info a {    display: inline-block;    margin-top: 0.5rem;    padding: 0.3rem 1.5rem;    background: var(--btn-bg);    color: var(--btn-color);  }    #body-wrap.error .aside-list {    display: flex;    flex-direction: row;    flex-wrap: nowrap;    bottom: 0px;    position: absolute;    padding: 1rem;    width: 100%;    overflow: scroll;  }    #body-wrap.error .aside-list .aside-list-group {    display: flex;    flex-direction: row;    flex-wrap: nowrap;    max-width: 1200px;    margin: 0 auto;  }    #body-wrap.error .aside-list .aside-list-item {    padding: 0.5rem;  }    #body-wrap.error .aside-list .aside-list-item img {    width: 100%;    object-fit: cover;    border-radius: 12px;  }    #body-wrap.error .aside-list .aside-list-item .thumbnail {    overflow: hidden;    width: 230px;    height: 143px;    background: var(--anzhiyu-card-bg);    display: flex;  }    #body-wrap.error .aside-list .aside-list-item .content .title {    -webkit-line-clamp: 2;    overflow: hidden;    display: -webkit-box;    -webkit-box-orient: vertical;    line-height: 1.5;    justify-content: center;    align-items: flex-end;    align-content: center;    padding-top: 0.5rem;    color: white;  }    #body-wrap.error .aside-list .aside-list-item .content time {    display: none;  }    /* 代码框主题 */  #article-container figure.highlight {    border-radius: 10px;  }  /* 鼠标样式 */#cursor {  position: fixed;  width: 16px;  height: 16px;  /* 这里改变跟随的底色 */  background: rgb(255, 102, 178);  border-radius: 8px;  opacity: 0.25;  z-index: 10086;  pointer-events: none;  transition: 0.2s ease-in-out;  transition-property: background, opacity, transform;}#cursor.hidden {  opacity: 0;}#cursor.hover {  opacity: 0.1;  transform: scale(2.5);  -webkit-transform: scale(2.5);  -moz-transform: scale(2.5);  -ms-transform: scale(2.5);  -o-transform: scale(2.5);}#cursor.active {  opacity: 0.5;  transform: scale(0.5);  -webkit-transform: scale(0.5);  -moz-transform: scale(0.5);  -ms-transform: scale(0.5);  -o-transform: scale(0.5);}/* 侧边栏个人信息卡片动态渐变色 */#aside-content > .card-widget.card-info {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #e3b6ee,    #f5d7a0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}/* 黑夜模式适配 */[data-theme="dark"] #aside-content > .card-widget.card-info {  background: #191919ee;}/* 个人信息Follow me按钮 */#aside-content > .card-widget.card-info > #card-info-btn {  background-color: #f879d2;  border-radius: 8px;}body::-webkit-scrollbar {  width: 0;}.neko {  width: 64px;  height: 64px;  background-image: url("https://s2.loli.net/2024/10/05/zxwRiskFDgGOTZ7.png");  position: absolute;  right: 32px;  background-repeat: no-repeat;  background-size: contain;  transform: translateX(50%);  cursor: pointer;  font-family: ZhuZiAYuanJWD;  font-weight: 600;  font-size: 16px;  color: #6f42c1;  display: none;}.neko::after {  display: none;  width: 100px;  height: 100px;  background-image: url("https://bu.dusays.com/2022/07/20/62d812d95e6f5.png");  background-size: contain;  z-index: 9999;  position: absolute;  right: 50%;  text-align: center;  line-height: 100px;  top: -115%;}.neko.showMsg::after {  content: attr(data-msg);  display: block;  overflow: hidden;  text-overflow: ellipsis;}.neko:hover::after {  content: attr(data-msg);  display: block;  overflow: hidden;  text-overflow: ellipsis;}.neko.fontColor::after {  color: #333;}/*** @description: 滚动条样式  跟猫二选一*/@media screen and (max-width:992px) {  ::-webkit-scrollbar {      width: 8px !important;      height: 8px !important  }  ::-webkit-scrollbar-track {      border-radius: 2em;  }  ::-webkit-scrollbar-thumb {      background-color: rgb(255 255 255 / .3);      background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);      border-radius: 2em  }  ::-webkit-scrollbar-corner {      background-color: transparent  }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/cat.js"/>
       <url>/js/cat.js</url>
       
@@ -188,11 +204,33 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/cursor.js"/>
-      <url>/js/cursor.js</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) {}    return "";};class Cursor {    constructor() {        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove  = e => {(this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove("hidden");};        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown  = e => this.cursor.classList.add("active");        document.onmouseup    = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>qq</title>
+      <link href="/qq/index.html"/>
+      <url>/qq/index.html</url>
+      
+        <content type="html"><![CDATA[<p>我的QQ小号：<code>2029285229</code></p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -211,43 +249,32 @@
     
     <entry>
       <title></title>
+      <link href="/js/cursor.js"/>
+      <url>/js/cursor.js</url>
+      
+        <content type="html"><![CDATA[var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) {}    return "";};class Cursor {    constructor() {        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove  = e => {(this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove("hidden");};        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown  = e => this.cursor.classList.add("active");        document.onmouseup    = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[/* @font-face {  font-family: Candyhome;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);  font-display: swap;  font-weight: lighter;} */@font-face {    font-family: ZhuZiAYuanJWD;    src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);    font-display: swap;    font-weight: lighter;  }    div#menus {    font-family: "ZhuZiAYuanJWD";  }  h1#site-title {    font-family: ZhuZiAYuanJWD;    font-size: 3em !important;  }  a.article-title,  a.blog-slider__title,  a.categoryBar-list-link,  h1.post-title {    font-family: ZhuZiAYuanJWD;  }    .iconfont {    font-family: "iconfont" !important;    font-size: 3em;    /* 可以定义图标大小 */    font-style: normal;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  }    /* 时间轴生肖icon */  svg.icon {    /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */    width: 1em;    height: 1em;    /* width和height定义图标的默认宽度和高度*/    vertical-align: -0.15em;    fill: currentColor;    overflow: hidden;  }    .icon-zhongbiao::before {    color: #f7c768;  }    /* bilibli番剧插件  #article-container .bangumi-tab.bangumi-active {    background: var(--anzhiyu-theme);    color: var(--anzhiyu-ahoverbg);    border-radius: 10px;  }  a.bangumi-tab:hover {    text-decoration: none !important;  }  .bangumi-button:hover {    background: var(--anzhiyu-theme) !important;    border-radius: 10px !important;    color: var(--anzhiyu-ahoverbg) !important;  }  a.bangumi-button.bangumi-nextpage:hover {    text-decoration: none !important;  }  .bangumi-button {    padding: 5px 10px !important;  }    a.bangumi-tab {    padding: 5px 10px !important;  }  svg.icon.faa-tada {    font-size: 1.1em;  }  .bangumi-info-item {    border-right: 1px solid #f2b94b;  }  .bangumi-info-item span {    color: #f2b94b;  }  .bangumi-info-item em {    color: #f2b94b;  } */    /* 解决artitalk的图标问题 */  #uploadSource > svg {    width: 1.19em;    height: 1.5em;  }    /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */  #page-header:not(.not-top-img):before {    background-color: transparent !important;  }    /* 首页文章卡片 */  #recent-posts > .recent-post-item {    background: rgba(255, 255, 255, 0.9);  }    /* 首页侧栏卡片 */  #aside-content .card-widget {    background: rgba(255, 255, 255, 0.9);  }    /* 文章页面正文背景 */  div#post {    background: rgba(255, 255, 255, 0.9);  }    /* 分页页面 */  div#page {    background: rgba(255, 255, 255, 0.9);  }    /* 归档页面 */  div#archive {    background: rgba(255, 255, 255, 0.9);  }    /* 标签页面 */  div#tag {    background: rgba(255, 255, 255, 0.9);  }    /* 分类页面 */  div#category {    background: rgba(255, 255, 255, 0.9);  }    /*夜间模式伪类遮罩层透明*/  [data-theme="dark"] #recent-posts > .recent-post-item {    background: #121212;  }    [data-theme="dark"] .card-widget {    background: #121212 !important;  }    [data-theme="dark"] div#post {    background: #121212 !important;  }    [data-theme="dark"] div#tag {    background: #121212 !important;  }    [data-theme="dark"] div#archive {    background: #121212 !important;  }    [data-theme="dark"] div#page {    background: #121212 !important;  }    [data-theme="dark"] div#category {    background: #121212 !important;  }    [data-theme="dark"] div#category {    background: transparent !important;  }  /* 页脚透明 */  #footer {    background: transparent !important;  }    /* 头图透明 */  #page-header {    background: transparent !important;  }    #rightside > div > button {    border-radius: 5px;  }    /* 滚动条 */    ::-webkit-scrollbar {    width: 10px;    height: 10px;  }    ::-webkit-scrollbar-thumb {    background-color: #3b70fc;    border-radius: 2em;  }    ::-webkit-scrollbar-corner {    background-color: transparent;  }    ::-moz-selection {    color: #fff;    background-color: #3b70fc;  }    /* 音乐播放器 */    /* .aplayer .aplayer-lrc {    display: none !important;  } */    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {    left: -66px !important;    transition: all 0.3s;    /* 默认情况下缩进左侧66px，只留一点箭头部分 */  }    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {    left: 0 !important;    transition: all 0.3s;    /* 鼠标悬停是左侧缩进归零，完全显示按钮 */  }    .aplayer.aplayer-fixed {    z-index: 999999 !important;  }    /* 评论框  */  .vwrap {    box-shadow: 2px 2px 5px #bbb;    background: rgba(255, 255, 255, 0.3);    border-radius: 8px;    padding: 30px;    margin: 30px 0px 30px 0px;  }    /* 设置评论框 */    .vcard {    box-shadow: 2px 2px 5px #bbb;    background: rgba(255, 255, 255, 0.3);    border-radius: 8px;    padding: 30px;    margin: 30px 0px 0px 0px;  }    /* md网站下划线 */  #article-container a:hover {    text-decoration: none !important;  }    #article-container #hpp_talk p img {    display: inline;  }    /* 404页面 */  #error-wrap {    position: absolute;    top: 40%;    right: 0;    left: 0;    margin: 0 auto;    padding: 0 1rem;    max-width: 1000px;    transform: translate(0, -50%);  }    #error-wrap .error-content {    display: flex;    flex-direction: row;    justify-content: center;    align-items: center;    margin: 0 1rem;    height: 18rem;    border-radius: 8px;    background: var(--card-bg);    box-shadow: var(--card-box-shadow);    transition: all 0.3s;  }    #error-wrap .error-content .error-img {    box-flex: 1;    flex: 1;    height: 100%;    border-top-left-radius: 8px;    border-bottom-left-radius: 8px;    background-color: #3b70fc;    background-position: center;    background-size: cover;  }    #error-wrap .error-content .error-info {    box-flex: 1;    flex: 1;    padding: 0.5rem;    text-align: center;    font-size: 14px;    font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;  }  #error-wrap .error-content .error-info .error_title {    margin-top: -4rem;    font-size: 9em;  }  #error-wrap .error-content .error-info .error_subtitle {    margin-top: -3.5rem;    word-break: break-word;    font-size: 1.6em;  }  #error-wrap .error-content .error-info a {    display: inline-block;    margin-top: 0.5rem;    padding: 0.3rem 1.5rem;    background: var(--btn-bg);    color: var(--btn-color);  }    #body-wrap.error .aside-list {    display: flex;    flex-direction: row;    flex-wrap: nowrap;    bottom: 0px;    position: absolute;    padding: 1rem;    width: 100%;    overflow: scroll;  }    #body-wrap.error .aside-list .aside-list-group {    display: flex;    flex-direction: row;    flex-wrap: nowrap;    max-width: 1200px;    margin: 0 auto;  }    #body-wrap.error .aside-list .aside-list-item {    padding: 0.5rem;  }    #body-wrap.error .aside-list .aside-list-item img {    width: 100%;    object-fit: cover;    border-radius: 12px;  }    #body-wrap.error .aside-list .aside-list-item .thumbnail {    overflow: hidden;    width: 230px;    height: 143px;    background: var(--anzhiyu-card-bg);    display: flex;  }    #body-wrap.error .aside-list .aside-list-item .content .title {    -webkit-line-clamp: 2;    overflow: hidden;    display: -webkit-box;    -webkit-box-orient: vertical;    line-height: 1.5;    justify-content: center;    align-items: flex-end;    align-content: center;    padding-top: 0.5rem;    color: white;  }    #body-wrap.error .aside-list .aside-list-item .content time {    display: none;  }    /* 代码框主题 */  #article-container figure.highlight {    border-radius: 10px;  }  /* 鼠标样式 */#cursor {  position: fixed;  width: 16px;  height: 16px;  /* 这里改变跟随的底色 */  background: rgb(255, 102, 178);  border-radius: 8px;  opacity: 0.25;  z-index: 10086;  pointer-events: none;  transition: 0.2s ease-in-out;  transition-property: background, opacity, transform;}#cursor.hidden {  opacity: 0;}#cursor.hover {  opacity: 0.1;  transform: scale(2.5);  -webkit-transform: scale(2.5);  -moz-transform: scale(2.5);  -ms-transform: scale(2.5);  -o-transform: scale(2.5);}#cursor.active {  opacity: 0.5;  transform: scale(0.5);  -webkit-transform: scale(0.5);  -moz-transform: scale(0.5);  -ms-transform: scale(0.5);  -o-transform: scale(0.5);}/* 侧边栏个人信息卡片动态渐变色 */#aside-content > .card-widget.card-info {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #e3b6ee,    #f5d7a0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}/* 黑夜模式适配 */[data-theme="dark"] #aside-content > .card-widget.card-info {  background: #191919ee;}/* 个人信息Follow me按钮 */#aside-content > .card-widget.card-info > #card-info-btn {  background-color: #f879d2;  border-radius: 8px;}body::-webkit-scrollbar {  width: 0;}.neko {  width: 64px;  height: 64px;  background-image: url("https://s2.loli.net/2024/10/05/zxwRiskFDgGOTZ7.png");  position: absolute;  right: 32px;  background-repeat: no-repeat;  background-size: contain;  transform: translateX(50%);  cursor: pointer;  font-family: ZhuZiAYuanJWD;  font-weight: 600;  font-size: 16px;  color: #6f42c1;  display: none;}.neko::after {  display: none;  width: 100px;  height: 100px;  background-image: url("https://bu.dusays.com/2022/07/20/62d812d95e6f5.png");  background-size: contain;  z-index: 9999;  position: absolute;  right: 50%;  text-align: center;  line-height: 100px;  top: -115%;}.neko.showMsg::after {  content: attr(data-msg);  display: block;  overflow: hidden;  text-overflow: ellipsis;}.neko:hover::after {  content: attr(data-msg);  display: block;  overflow: hidden;  text-overflow: ellipsis;}.neko.fontColor::after {  color: #333;}/*** @description: 滚动条样式  跟猫二选一*/@media screen and (max-width:992px) {  ::-webkit-scrollbar {      width: 8px !important;      height: 8px !important  }  ::-webkit-scrollbar-track {      border-radius: 2em;  }  ::-webkit-scrollbar-thumb {      background-color: rgb(255 255 255 / .3);      background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);      border-radius: 2em  }  ::-webkit-scrollbar-corner {      background-color: transparent  }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/runtime.min.js"/>
       <url>/js/runtime.min.js</url>
       
         <content type="html"><![CDATA[var now=new Date;function createtime(){    var t=new Date("10/04/2024 00:00:00");    now.setTime(now.getTime()+250);    var e=(now-t)/1e3/60/60/24,a=Math.floor(e),n=(now-t)/1e3/60/60-24*a,r=Math.floor(n);1==String(r).length&&(r="0"+r);    var s=(now-t)/1e3/60-1440*a-60*r,i=Math.floor(s);1==String(i).length&&(i="0"+i);var o=(now-t)/1e3-86400*a-3600*r-60*i,l=Math.round(o);    1==String(l).length&&(l="0"+l);let g="";    g=r<18&&r>=9?`<span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`:`<span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=g)}setInterval((()=>{createtime()}),250);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>qq</title>
-      <link href="/qq/index.html"/>
-      <url>/qq/index.html</url>
-      
-        <content type="html"><![CDATA[<p>我的QQ小号：<code>2029285229</code></p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
