@@ -6,7 +6,7 @@
   <link href="https://sly3601.top/atom.xml" rel="self"/>
   
   <link href="https://sly3601.top/"/>
-  <updated>2024-10-06T17:24:37.801Z</updated>
+  <updated>2024-10-07T07:20:16.727Z</updated>
   <id>https://sly3601.top/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://sly3601.top/posts/2e5f328.html"/>
     <id>https://sly3601.top/posts/2e5f328.html</id>
     <published>2024-10-07T07:46:31.000Z</published>
-    <updated>2024-10-06T17:24:37.801Z</updated>
+    <updated>2024-10-07T07:20:16.727Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="PCB电流与信号完整性设计笔记"><a href="#PCB电流与信号完整性设计笔记" class="headerlink" title="PCB电流与信号完整性设计笔记"></a>PCB电流与信号完整性设计笔记</h1><h2 id="介电常数"><a href="#介电常数" class="headerlink" title="介电常数"></a>介电常数</h2><p>$$<br>\sqrt{\varepsilon_r}<br>$$<br>$$<br>\sqrt{\varepsilon_r}<br>$$</p><h2 id="介电常数-1"><a href="#介电常数-1" class="headerlink" title="介电常数"></a>介电常数</h2><p>$$<br>\sqrt{\varepsilon_r}<br>$$<br>$$<br>\sqrt{\varepsilon_r}<br>$$</p><h2 id="介电常数-2"><a href="#介电常数-2" class="headerlink" title="介电常数"></a>介电常数</h2><p>$$<br>\sqrt{\varepsilon_r}<br>$$<br>$$<br>\sqrt{\varepsilon_r}<br>$$</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="PCB电流与信号完整性设计笔记"><a href="#PCB电流与信号完整性设计笔记" class="headerlink" title="PCB电流与信号完整性设计笔记"></a>PCB电流与信号完整性设计笔记</h1><h2 id="基本的电流概念"><a href="#基本的电流概念" class="headerlink" title="基本的电流概念"></a>基本的电流概念</h2><h3 id="介电常数"><a href="#介电常数" class="headerlink" title="介电常数"></a>介电常数</h3><p>电子在铜导线中的传输速度理论上是光速。</p><p>但问题是电流流过导体，会在导体周围产生电磁场，<code>电磁场和电流必须一起移动</code>，而磁场的移动速度是受到导体周围介质的影响的。<br>$$<br>信号传播速度 &#x3D; 11.8&#x2F;\sqrt{\varepsilon_r}    \rm in&#x2F;ns<br>$$<br>$$<br>\varepsilon_r是相对介电常数，也就是空气（真空）的介电常数，\varepsilon_r&#x3D;1<br>$$</p><p>像我们常用的PCB材料<code>FR4</code>的相对介电常数约为4，那套这个公式就是：<br>$$<br>FR4信号传播速度 &#x3D; 11.8&#x2F;2 \approx6    \rm in&#x2F;ns<br>$$<br>传输速度远小于在空气介质中。</p><h3 id="走线宽度和信号传输速度"><a href="#走线宽度和信号传输速度" class="headerlink" title="走线宽度和信号传输速度"></a>走线宽度和信号传输速度</h3><p>信号线越粗，传输速度越慢。</p><p>因为走线变宽走线和参考层之间就有更多磁场线包在介质中。</p><h3 id="微带线和带状线"><a href="#微带线和带状线" class="headerlink" title="微带线和带状线"></a>微带线和带状线</h3><img src="/img/photos/wdx.webp" alt="微带线" style="zoom:100%;" /><img src="/img/photos/dzx.webp" alt="带状线" style="zoom:100%;" /><ul><li><p>微带线就是一面是空气，另一面是参考层（应该是GND平面）的PCB信号线。</p></li><li><p>带状线就是两面都是参考层的信号线。</p></li></ul><h3 id="数字电路的时序问题"><a href="#数字电路的时序问题" class="headerlink" title="数字电路的时序问题"></a>数字电路的时序问题</h3><ul><li>RGB屏的信号线，要确保三种信号同时到达接收器。</li><li>差分对两条信号线必须等长。</li><li>当时钟脉冲触发时，数据线的正确电平必须出现并稳定在各自端口。</li></ul><p>解决这一问题的方法：<code>蛇形走线</code>，确保等长。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;PCB电流与信号完整性设计笔记&quot;&gt;&lt;a href=&quot;#PCB电流与信号完整性设计笔记&quot; class=&quot;headerlink&quot; title=&quot;PCB电流与信号完整性设计笔记&quot;&gt;&lt;/a&gt;PCB电流与信号完整性设计笔记&lt;/h1&gt;&lt;h2 id=&quot;介电常数&quot;&gt;&lt;a href</summary>
+    <summary type="html">&lt;h1 id=&quot;PCB电流与信号完整性设计笔记&quot;&gt;&lt;a href=&quot;#PCB电流与信号完整性设计笔记&quot; class=&quot;headerlink&quot; title=&quot;PCB电流与信号完整性设计笔记&quot;&gt;&lt;/a&gt;PCB电流与信号完整性设计笔记&lt;/h1&gt;&lt;h2 id=&quot;基本的电流概念&quot;&gt;&lt;a h</summary>
       
     
     
